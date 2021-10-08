@@ -1,0 +1,48 @@
+
+body {
+  background: #1b1b1a;
+
+  overflow: auto;
+}
+
+a {
+    color: #1b1b1a;
+    text-decoration: none
+}
+
+a:visited {
+  color: #1b1b1a;
+  text-decoration: none
+}
+
+a:active {
+  color: #1b1b1a;
+  text-decoration: none
+}
+
+.main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  width: 260px;
+  height: 400px;
+  background: #1b1b1a;
+  cursor: auto;
+  margin: 0 auto;
+}
+
+.main__wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 60px;
+  overflow: hidden;
+  color: #1b1b1a;
+  transition: height .9s;
+  text-align: center;
+}
+
+.main:hover .main__wrap {
+  height: 50%;
+}
